@@ -1,0 +1,36 @@
+span{
+    display: flex;
+    justify-content: column;
+    gap: 10px;
+}
+
+.locationFrame{
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+}
+
+.location img{
+    width:78px;
+    height: 78px;
+}
+
+.profile img{
+    width: 78px;
+    height: 78px;
+}
+
+.location{
+    display: flex;
+    justify-content: column;
+    gap: 10px;
+    align-items: center;
+}
+video{
+    width: 200px;
+    height: 290px;
+}
+iframe{
+    width: 200px;
+    height: 200px;
+}
