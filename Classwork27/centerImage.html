@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 300px;
+        }
+
+        .image img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-direction: row-reverse;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0 30px;
+        }
+
+        .navlink {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .navlink a {
+            text-decoration: none;
+            color: black;
+        }
+
+        button {
+            height: 30px;
+            border-radius: 7px;
+            width: 100px;
+            background-color: cadetblue;
+
+        }
+
+        .logo {
+            border-radius: 50%;
+        }
+
+        .nav-container {
+            position: fixed;
+            top: 0;
+            background-color: aqua;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="navigation">
+            <img height="50px" width="50px" class="logo"
+                src="https://th.bing.com/th/id/OIP.Sc-pGDkmKH6dLZgbWk-3uAHaHa?rs=1&pid=ImgDetMain" alt="">
+
+            <div class="navlink">
+                <a href="index.html">Home</a>
+
+                <a href="https://www.w3schools.com/css/css3_flexbox_container.asp">About</a>
+
+                <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox">Contact Us</a>
+
+            </div>
+
+            <button> <a href="https://www.bing.com/search?q=Free+Logo+Vector+Download&FORM=HDRSC1"></a> Login </button>
+        </div>
+    </div>
+
+
+    <div class="image">
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.0ZM7e1Z_zmebcBILunvbHQHaEn?rs=1&pid=ImgDetMain" alt="">
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/OIP.2bJ9_f9aKoGCME7ZIff-ZwHaJ4?rs=1&pid=ImgDetMain" alt="">
+        </div>
+        <div>
+            <img src="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15.jpg" alt="">
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.071f43408bca9673f370e05c9dc838d2?rik=NrusFm%2flV2xtlw&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1597848212624-a19eb35e2651%3fixlib%3drb-1.2.1%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax&ehk=4go6t8l6CowBI8qequqsHCc%2f5ScfWteTa7jCCoY8Bqg%3d&risl=&pid=ImgRaw&r=0"
+                alt="">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+.image{
+    background-image: url('https://thumbs.dreamstime.com/b/white-background-marble-wall-texture-design-art-work-seamless-pattern-tile-stone-copy-space-ai-generated-330558919.jpg?w=992');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+#topright{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+#bottomright{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+#bottomleft{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#topleft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+#t{
+    background-color: skyblue;
+}
+#y{
+    background-color: rgb(224, 11, 11);
+}
+#u{
+    background-color: rgb(211, 9, 238);
+}
+
